@@ -21,4 +21,3 @@ work/
 !tests/data/*.bam
 !tests/data/*.bam.bai
 !scatter/data/*.bam
-

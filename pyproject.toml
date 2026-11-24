@@ -41,4 +41,3 @@ scatter = ["models/*.pth", "models/*.json", "data/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-
