@@ -1,0 +1,28 @@
+{
+  "data": "Artificial cells, UMIs, reads and annotation; positive DNA windows are GRCh38-derived and duplicated into a miniature test chromosome",
+  "source_reference": "GRCh38.primary_assembly.genome.fa",
+  "source_chrom": "chr1",
+  "source_start0": 23018976,
+  "source_end0": 23019976,
+  "source_strand": "+",
+  "positive_sequence_sha256": "31a38b0cfee942493c865ff2ae9ae2042b0614829619205aa6906cca271dc3d2",
+  "expected": {
+    "off": {
+      "TSS": 3,
+      "UMIs": 7
+    },
+    "mix": {
+      "TSS": 3,
+      "UMIs": 7
+    },
+    "tso": {
+      "TSS": 2,
+      "UMIs": 5
+    }
+  },
+  "cell_order": [
+    "cellB-1",
+    "cellA-1",
+    "cellC-1"
+  ]
+}

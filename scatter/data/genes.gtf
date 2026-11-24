@@ -1,0 +1,8 @@
+chr1	demo	gene	1501	4500	.	+	.	gene_id "G1"; gene_name "Demo_G1"; gene_type "protein_coding";
+chr1	demo	transcript	1501	2000	.	+	.	gene_id "G1"; gene_name "Demo_G1"; gene_type "protein_coding"; transcript_id "G1_T0";
+chr1	demo	exon	1501	2000	.	+	.	gene_id "G1"; gene_name "Demo_G1"; gene_type "protein_coding"; transcript_id "G1_T0";
+chr1	demo	transcript	3501	4000	.	+	.	gene_id "G1"; gene_name "Demo_G1"; gene_type "protein_coding"; transcript_id "G1_T1";
+chr1	demo	exon	3501	4000	.	+	.	gene_id "G1"; gene_name "Demo_G1"; gene_type "protein_coding"; transcript_id "G1_T1";
+chr1	demo	gene	7501	8501	.	-	.	gene_id "G2"; gene_name "Demo_G2"; gene_type "protein_coding";
+chr1	demo	transcript	7501	8501	.	-	.	gene_id "G2"; gene_name "Demo_G2"; gene_type "protein_coding"; transcript_id "G2_T0";
+chr1	demo	exon	7501	8501	.	-	.	gene_id "G2"; gene_name "Demo_G2"; gene_type "protein_coding"; transcript_id "G2_T0";

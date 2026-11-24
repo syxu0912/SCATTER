@@ -1,0 +1,17 @@
+SCATTER
+Copyright 2026 SCATTER contributors.
+
+This distribution packages SCATTER's existing calling and UMI-quantification
+implementation and a user-selected DeepTSSFilter Shift model.
+
+The single-cell output workflow is inspired by CamoTSS:
+Hou R., Hon C.C., Huang Y. CamoTSS: analysis of alternative transcription
+start sites for cellular phenotypes and regulatory patterns from 5' scRNA-seq
+data. Nature Communications 14, 7240 (2023).
+https://doi.org/10.1038/s41467-023-42636-1
+https://github.com/StatBiomed/CamoTSS
+
+CamoTSS is not bundled or required at runtime. Its code, model weights,
+benchmark data and name are not represented as SCATTER assets.
+The miniature demonstration contains artificial cells/reads/annotation and
+GRCh38-derived DNA; its provenance is in scatter/data/description.json.

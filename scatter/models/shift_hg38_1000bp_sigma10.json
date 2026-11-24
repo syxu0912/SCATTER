@@ -1,0 +1,22 @@
+{
+  "model_id": "shift_hg38_1000bp_sigma10_n1n2_20261123",
+  "name": "DeepTSSFilter Shift",
+  "genome": "GRCh38/hg38",
+  "sequence_length_bp": 1000,
+  "channels": [
+    "A",
+    "T",
+    "C",
+    "G"
+  ],
+  "training_sigma_bp": 10,
+  "negative_sources": [
+    "intergenic_random",
+    "gene_internal_hard"
+  ],
+  "threshold": 0.9,
+  "inference": "single centered window, no shift averaging",
+  "sha256": "58410fdd8a913a95f3075dd5c35741b5418d20effab8338d7f329c077c4ce80b",
+  "format_version": 2,
+  "source_checkpoint": "models/stringent_1000bp_two_negatives_gpu_20261123/shift_1000bp/best_model.pth"
+}
